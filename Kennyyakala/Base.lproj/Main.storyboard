@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kennyyakala" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miT-ml-g0Y">
+                                <rect key="frame" x="168" y="107" width="78" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3K-Qi-vHL">
+                                <rect key="frame" x="20" y="54" width="374" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="Cez-RY-3ck">
+                                <rect key="frame" x="272" y="172" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="5cS-Hq-R7W">
+                                <rect key="frame" x="272" y="269" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="mUk-bP-BQt">
+                                <rect key="frame" x="272" y="378" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="jqj-mM-H8g">
+                                <rect key="frame" x="165" y="378" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="QXe-9o-yxY">
+                                <rect key="frame" x="165" y="269" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="xyK-5A-3GU">
+                                <rect key="frame" x="65" y="378" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="dET-Rw-P8g">
+                                <rect key="frame" x="65" y="269" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="G5g-1f-vPF">
+                                <rect key="frame" x="165" y="172" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="ZUT-z3-Frp">
+                                <rect key="frame" x="65" y="172" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="ET6-0B-50t">
+                                <rect key="frame" x="272" y="462" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="isP-kv-Sh5">
+                                <rect key="frame" x="272" y="559" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="66U-dD-JRf">
+                                <rect key="frame" x="272" y="668" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="gLn-Oe-N3z">
+                                <rect key="frame" x="165" y="668" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="ynA-wD-38e">
+                                <rect key="frame" x="165" y="559" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="hrZ-LW-KLf">
+                                <rect key="frame" x="65" y="668" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="JkW-me-JgI">
+                                <rect key="frame" x="65" y="559" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="EeV-VU-fV9">
+                                <rect key="frame" x="165" y="462" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokoli" translatesAutoresizingMaskIntoConstraints="NO" id="c3f-P6-10J">
+                                <rect key="frame" x="65" y="462" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Highscore:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyu-TQ-hXv">
+                                <rect key="frame" x="65" y="778" width="285" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.62477157884952128" green="0.86078917980194092" blue="0.74573952615124817" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="bro1" destination="ZUT-z3-Frp" id="tni-Ot-euu"/>
+                        <outlet property="bro10" destination="c3f-P6-10J" id="vLg-cg-rzI"/>
+                        <outlet property="bro11" destination="EeV-VU-fV9" id="jjq-1X-zSA"/>
+                        <outlet property="bro12" destination="ET6-0B-50t" id="YZF-qM-uVi"/>
+                        <outlet property="bro13" destination="JkW-me-JgI" id="pAk-31-6YH"/>
+                        <outlet property="bro14" destination="ynA-wD-38e" id="KaE-kf-myM"/>
+                        <outlet property="bro15" destination="isP-kv-Sh5" id="edg-Yo-Otm"/>
+                        <outlet property="bro16" destination="hrZ-LW-KLf" id="sXW-7G-MZA"/>
+                        <outlet property="bro17" destination="gLn-Oe-N3z" id="cSb-1C-28R"/>
+                        <outlet property="bro18" destination="66U-dD-JRf" id="h4o-vH-hTD"/>
+                        <outlet property="bro2" destination="G5g-1f-vPF" id="mYh-ax-SeM"/>
+                        <outlet property="bro3" destination="Cez-RY-3ck" id="iRb-xY-J3S"/>
+                        <outlet property="bro4" destination="dET-Rw-P8g" id="lDO-9z-7FI"/>
+                        <outlet property="bro5" destination="QXe-9o-yxY" id="Gv6-el-OeF"/>
+                        <outlet property="bro6" destination="5cS-Hq-R7W" id="oJb-ew-Xph"/>
+                        <outlet property="bro7" destination="xyK-5A-3GU" id="BS9-BF-8RH"/>
+                        <outlet property="bro8" destination="jqj-mM-H8g" id="Y3a-8A-LJI"/>
+                        <outlet property="bro9" destination="mUk-bP-BQt" id="gRr-Qw-SrU"/>
+                        <outlet property="lblHighscore" destination="Pyu-TQ-hXv" id="Yba-Xd-ATw"/>
+                        <outlet property="lblScore" destination="miT-ml-g0Y" id="7ae-j9-HU1"/>
+                        <outlet property="lblTime" destination="l3K-Qi-vHL" id="v1u-6y-F9u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brokoli" width="1200" height="1200"/>
+    </resources>
+</document>
